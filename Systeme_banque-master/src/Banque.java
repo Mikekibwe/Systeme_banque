@@ -14,7 +14,7 @@ public class Banque {
             f.close();
             System.out.println("Le compte a été enregistré avec succès !");
         } catch (IOException e) {
-            System.out.println("Erreur lors de l'enregistrement du compte.");
+            System.out.println("L'enregistrement du compte a echoué");
         }
     }
 
